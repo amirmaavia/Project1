@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(34, 36, 39, 0.041);
+    width: 100%;
+    height: 40px;
+    font-family: 'Syne Mono', monospace;
+    position: relative;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        justify-items: flex-start;
+        text-align: center;
+    }
+    h1{
+        position: absolute;
+    }
+    span{
+        color: #8fe4e4;
+    }
+    .nav{
+        width: auto;
+        /* margin-top: 10px; */
+        display: inline-block;
+        
+    }
+    ul{
+      margin-bottom: 5px;
+    }
+    li{
+        display: inline-block;
+        padding: 15px 30px;
+        list-style: none;
+    }
+    a{
+       text-decoration: none;
+       color: black;
+       text-align: center;
+    }
+    a:hover{
+        color: blue;
+    }
+    .slider{
+        background-image: url('./Images/background.png');
+        width: 100%;
+        background-size: cover;
+        height: 600px;
+        position: relative,fixed;
+    }
+.Name{
+       /* width: 50px; */
+       height: 50px;
+       justify-content: center;
+       display: flex;
+       padding-top: 250px;
+}
+#A{
+    font-size: 66px;
+    font-family: 'Caveat', cursive;
+}
+.About{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    /* text-align: center; */
+    justify-content: space-around;
+    /* top: unset;*/
+    position: relative;
+    
+}
+img{
+    width: 500px;
+height: auto;
+}
+.more{
+    font-family: 'Syne Mono', monospace;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+}
+p{
+    padding-top: 40px;
+}
+fotter{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(34, 36, 39, 0.041);
+    width: 100%;
+    height: 40px;
+    font-family: 'Syne Mono', monospace;
+    position: absolute;
+   
+}
